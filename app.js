@@ -1,5 +1,5 @@
 
-const val = 'test connection to remote GitHub repo attempt #1';
+const val = 'test connection to remote GitHub repo';
 
 // const button = document.getElementById('test-btn');
 document.querySelector('#test-btn').addEventListener('click', function(e) {
