@@ -1,3 +1,3 @@
-#To Do Task List Application
+#ToDo_TaskList_Application
 
-This is a ToDo Checklist application where users can add/remove taks and modify existing tasks within the task check list application. 
+This is a ToDo Checklist application where users can add/remove taks and modify existing tasks within this task list application. 
