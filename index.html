@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!--Font Awsome CSS CDN-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title>Task List</title>
 
 </head>
 
 <body>
+    <h1 class="app-title">Your To-Do Tasks List</h1>
     <!--Add container-->
     <div class="container">
         <!--Add row-->
@@ -25,7 +27,7 @@
                        <form id="task-form">
                            <div class="input-field col s12">
                                <input type="text" name="task" id="task">
-                               <label for="task">New Task</label>
+                               <label for="task">Please enter a new task...</label>
                            </div>
                            <input type="submit" value="Add Task" class="btn">
                        </form>
@@ -35,7 +37,7 @@
                    <h5 id="task-title">Tasks</h5>
                    <div class="input-field col s12">
                     <input type="text" name="filter" id="filter">
-                    <label for="filter">Filter Tasks</label>
+                    <label for="filter">Task filter ...</label>
                 </div>
                 <ul class="collection"></ul>
                 <a href="#" class="clear-tasks btn black">Clear Tasks</a>
