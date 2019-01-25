@@ -1,4 +1,7 @@
 # ToDo-TaskList Application
 
-This is a ToDo-TaskList UI whereby users can add, remove and modify existing tasks within this dynamic task list application.
+This is a ToDo Task List application whereby users can add and remove tasks within this dynamic task list UI.
 
+Data is persisted to local storage through the JavaScript local API.
+
+The project is a JavaScript centric SPA.
