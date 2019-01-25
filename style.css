@@ -1,0 +1,60 @@
+/*Imported Font Styles*/
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Nosifer|Slackey|Wallpoet|Varela+Round');
+
+body, html {
+    background-color: lightslategray;
+    background-image: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.7));    
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.card {
+    margin: 2.5rem;
+    box-shadow: 0 35px 40px -25px #000, 0 55px 30px -35px #111;
+    border: 4px solid teal;
+    border-radius: 5px;
+}
+
+.card-title {
+    text-align: center;
+    text-decoration: underline; 
+    font-size: 2.5rem;
+}
+
+.app-title {
+    font-size: 7rem;
+    text-align: center;
+    font-family: 'Slackey','Nosifer','Wallpoet','Bungee Inline','Varela Round','Century Gothic'; 
+}
+
+li {
+    font-style: oblique;
+    letter-spacing: 0.85px;
+}
+
+li, h5, span {
+    font-family: 'Century Gothic','Varela Round';
+}
+
+label {
+    font-family: 'Varela Round', 'Century Gothic';  
+}
+
+.btn {
+    font-family: 'Century Gothic';
+    box-shadow: 0 12px 10px -5px rgba(0,0,0,0.3);
+    margin: 0.5rem 10px;
+}
+
+.btn:hover {
+    box-shadow: 0 7px 10px -5px rgba(0,0,0,0.95);
+}
+
+/*Media Query Content*/
+@media screen and (max-width: 768px) {
+
+    .app-title {
+        font-size: 5rem;
+    }
+}
+
