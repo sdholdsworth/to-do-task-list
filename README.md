@@ -1,4 +1,4 @@
-# ToDo-TaskList Application
+# To-Do Task List Application
 
 This is a ToDo Task List application whereby users can add and remove tasks within this dynamic task list UI.
 
